@@ -19,7 +19,7 @@ def create_course_dataframe(cleaned_column_names, column_names, department_progr
     
     # Create DataFrame
     df = pd.DataFrame(data, columns=extended_column_names)
-    # Select columns based on cleaned_column_names
+    # Select columns based on cleaned_column_namesll
     df = df[cleaned_column_names]
 
     # strip trailing spaces from column names
